@@ -1,0 +1,61 @@
+/*  SECTIONS  */
+/* line 2, /Users/devon/Desktop/solutions-hiring-assignment/project-files/assets/scss/grid.scss */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px; }
+
+/*  COLUMN SETUP  */
+/* line 9, /Users/devon/Desktop/solutions-hiring-assignment/project-files/assets/scss/grid.scss */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.2%; }
+
+/* line 14, /Users/devon/Desktop/solutions-hiring-assignment/project-files/assets/scss/grid.scss */
+.col:first-child {
+  margin-left: 0; }
+
+/*  GROUPING  */
+/* line 17, /Users/devon/Desktop/solutions-hiring-assignment/project-files/assets/scss/grid.scss */
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+/* line 19, /Users/devon/Desktop/solutions-hiring-assignment/project-files/assets/scss/grid.scss */
+.group:after {
+  clear: both; }
+
+/* line 20, /Users/devon/Desktop/solutions-hiring-assignment/project-files/assets/scss/grid.scss */
+.group {
+  zoom: 1;
+  /* For IE 6/7 */ }
+
+/*  GRID OF FOUR  */
+/* line 24, /Users/devon/Desktop/solutions-hiring-assignment/project-files/assets/scss/grid.scss */
+.span_4_of_4 {
+  width: 100%; }
+
+/* line 27, /Users/devon/Desktop/solutions-hiring-assignment/project-files/assets/scss/grid.scss */
+.span_3_of_4 {
+  width: 74.6%; }
+
+/* line 30, /Users/devon/Desktop/solutions-hiring-assignment/project-files/assets/scss/grid.scss */
+.span_2_of_4 {
+  width: 49.2%; }
+
+/* line 33, /Users/devon/Desktop/solutions-hiring-assignment/project-files/assets/scss/grid.scss */
+.span_1_of_4 {
+  width: 23.8%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 39, /Users/devon/Desktop/solutions-hiring-assignment/project-files/assets/scss/grid.scss */
+  .col {
+    margin: 1% 0 1% 0%; }
+  /* line 40, /Users/devon/Desktop/solutions-hiring-assignment/project-files/assets/scss/grid.scss */
+  .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 {
+    width: 100%; } }
+
+/*# sourceMappingURL=../../scss */
